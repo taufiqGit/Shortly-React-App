@@ -23,6 +23,11 @@ module.exports = {
       Poppins: ['Poppins', 'sans-serif']
     },
     extend: {
+      spacing: {
+         '72': '18rem',
+         '84': '21rem',
+         '96': '24rem',
+      },
       inset: {
           '90px': '90px',
           '-12': '-4rem',

@@ -3,8 +3,8 @@ import React from 'react'
 const NavMobile =()=>{
     let href = ""
     return(
-        <div className="fixed inset-x-0 mx-0 h-auto flex justify-center lg:hidden z-20 font-Poppins">
-          <nav className="w-9/12 sm:6/12 h-auto bg-DarkViolet rounded-lg">
+        <div className="absolute inset-x-0 mx-0 h-auto flex justify-center lg:hidden z-20 font-Poppins">
+          <nav className="w-9/12 sm:6/12 pb-4 h-auto bg-DarkViolet rounded-lg">
             <ul className="text-center text-White">
               <li className="my-6 font-semibold text-lg"><a href={href}>Features</a></li>
               <li className="my-6 font-semibold text-lg"><a href={href}>Pricing</a></li>

@@ -33,11 +33,11 @@ const ListMenu =({data})=>{
 }
 
 const Footer =()=>(
-    <footer className="w-full px-4 lg:px-24 xl:px-32 py-16 flex flex-col md:flex-row items-center md:items-start justify-between bg-VeryDarkViolet">
+    <footer className="w-full px-4 lg:px-20 xl:px-32 py-16 flex flex-col lg:flex-row items-center lg:items-start justify-between bg-VeryDarkViolet">
         <div className="w-48">
            <img className="mx-auto h-8 w-32" src={Logo} alt="LOGO"/> 
         </div>
-        <div className="flex flex-col md:flex-row my-10 md:my-0 text-center md:text-left w-auto">
+        <div className="flex flex-col md:flex-row my-10 md:my-12 lg:my-0 text-center md:text-left w-auto">
             <ListMenu data={ListMenuFooter.Features}/>
             <ListMenu data={ListMenuFooter.Resources}/>
             <ListMenu data={ListMenuFooter.Company}/>

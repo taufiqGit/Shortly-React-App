@@ -9,7 +9,7 @@ import ListResults from './listResult/ListResult'
 function Main(){
     const {allResult} = useContext(Context)
     return(
-        <main className="w-full bg-AbuAbu pb-20 px-6 lg:px-24 xl:px-32"> 
+        <main className="w-full bg-AbuAbu pb-20 px-6 md:px-8 lg:px-10 xl:px-32"> 
            <SubmitUrl/>
            {
                allResult.length > 0 ? <ListResults dataResult={allResult}/> : ''
@@ -19,7 +19,7 @@ function Main(){
                <p className="text-xl font-semibold text-GrayishViolet max-w-xl">Track how your links are performing across the web with our 
                   advanced statistics dashboard.</p>
            </section>
-           <section className="mt-16 h-auto flex flex-col lg:flex-row">
+           <section className="mt-16 h-auto flex flex-wrap justify-center">
                     {
                         DataStatistic.map((value, index)=> (
                             <Card key={index} data={value}/>
