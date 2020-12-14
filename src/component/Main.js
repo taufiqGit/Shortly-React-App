@@ -7,10 +7,13 @@ import SubmitUrl from './formInput/submitUrl'
 import ListResults from './listResult/ListResult'
 
 function Main(){
-    const {allResult} = useContext(Context)
+    const {allResult, loading} = useContext(Context)
     return(
         <main className="w-full bg-AbuAbu pb-20 px-6 md:px-8 lg:px-10 xl:px-32"> 
            <SubmitUrl/>
+           {
+               loading ? <p className="text-center mb-12 text-3xl tracking-widest font-bold">Loading...</p> : ''
+           }
            {
                allResult.length > 0 ? <ListResults dataResult={allResult}/> : ''
            }

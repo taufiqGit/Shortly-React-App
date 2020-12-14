@@ -4,7 +4,7 @@ import {Context} from '../../App'
 import {RegexValidUrl} from '../../utils/regexValidationUrl'
 
 const SubmitUrl =()=>{
-    const {urlTxt, setTextUrls, SendLinkToShorthen} = useContext(Context)
+    const {urlTxt, setTextUrls, SendLinkToShorthen, setLoadingUrl} = useContext(Context)
 
     const [emtyString, setEmtyString] = useState(false)
     const [isNotUrl, setIsNotUrl] = useState(false)
@@ -18,6 +18,7 @@ const SubmitUrl =()=>{
             if (RegexValidUrl.test(urlTxt)) {
               setEmtyString(false)
               setIsNotUrl(false)
+              setLoadingUrl(true)
               SendLinkToShorthen(urlTxt)
               console.log("ini URL")
             } else {

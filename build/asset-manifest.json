@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.a01d8adb.chunk.css",
-    "main.js": "/static/js/main.bafdae2c.chunk.js",
-    "main.js.map": "/static/js/main.bafdae2c.chunk.js.map",
+    "main.js": "/static/js/main.bcf136c6.chunk.js",
+    "main.js.map": "/static/js/main.bcf136c6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7f26e1a5.js",
     "runtime-main.js.map": "/static/js/runtime-main.7f26e1a5.js.map",
-    "static/js/2.5d28c346.chunk.js": "/static/js/2.5d28c346.chunk.js",
-    "static/js/2.5d28c346.chunk.js.map": "/static/js/2.5d28c346.chunk.js.map",
+    "static/js/2.09bc9784.chunk.js": "/static/js/2.09bc9784.chunk.js",
+    "static/js/2.09bc9784.chunk.js.map": "/static/js/2.09bc9784.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.a01d8adb.chunk.css.map": "/static/css/main.a01d8adb.chunk.css.map",
-    "static/js/2.5d28c346.chunk.js.LICENSE.txt": "/static/js/2.5d28c346.chunk.js.LICENSE.txt",
+    "static/js/2.09bc9784.chunk.js.LICENSE.txt": "/static/js/2.09bc9784.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/bg-shorten-mobile.41c34b33.svg",
     "static/media/icon-brand-recognition.c349d3b6.svg": "/static/media/icon-brand-recognition.c349d3b6.svg",
     "static/media/icon-detailed-records.265c8aea.svg": "/static/media/icon-detailed-records.265c8aea.svg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7f26e1a5.js",
-    "static/js/2.5d28c346.chunk.js",
+    "static/js/2.09bc9784.chunk.js",
     "static/css/main.a01d8adb.chunk.css",
-    "static/js/main.bafdae2c.chunk.js"
+    "static/js/main.bcf136c6.chunk.js"
   ]
 }
