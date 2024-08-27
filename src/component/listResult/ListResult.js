@@ -23,9 +23,9 @@ const ListResults =({dataResult})=>{
                             <div className="flex flex-col md:flex-row w-full relative md:items-center justify-between">
                                 <span className="text-lg my-2 md:my-0 text-VeryDarkViolet font-semibold">{res?.data?.original}</span>
                                 <hr className="md:hidden"/>
-                                <span className="text-Cyan my-2 md:my-0 pr-3 text-lg font-semibold">{`${process.env.REACT_APP_API}/${res.data.short}`}</span>
+                                <span className="text-Cyan my-2 md:my-0 pr-3 text-lg font-semibold">{`${process.env.REACT_APP_API_2}/${res.data.short}`}</span>
                             </div>
-                            <button onClick={()=> copyToClipboard(`${process.env.REACT_APP_API}/${res.data.short}`)} className="bg-Cyan my-2 md:my-0 text-White font-bold rounded-md w-20 h-8 hover:shadow-lg focus:bg-DarkViolet">COPY</button>
+                            <button onClick={()=> copyToClipboard(`${process.env.REACT_APP_API_2}/${res.data.short}`)} className="bg-Cyan my-2 md:my-0 text-White font-bold rounded-md w-20 h-8 hover:shadow-lg focus:bg-DarkViolet">COPY</button>
                         </div>
                     )                   
                    : (
