@@ -32,14 +32,17 @@ function App() {
   }
 
   const SendLinkToShorthen = (value)=>{
+    setLoading(true)
     getShortUrl(value)
     .then(res =>{
       setAllResult(current => [res, ...current])
-      setLoading(false)
     })
     .catch(err => {
       alert("please check your signal internet !!!")
       console.log(err)
+    })
+    .finally(()=>{
+      setLoading(false)
     })
   }
 
