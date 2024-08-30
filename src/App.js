@@ -36,6 +36,7 @@ function App() {
     getShortUrl(value)
     .then(res =>{
       setAllResult(current => [res, ...current])
+      setTextUrls("")
     })
     .catch(err => {
       alert("please check your signal internet !!!")
